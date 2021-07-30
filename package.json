@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack --env.prod"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.0.1",
+    "axios": "^0.20.0",
+    "css-loader": "^4.3.0",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.1",
+    "lodash": "^4.17.21",
+    "style-loader": "^1.3.0",
+    "syftools": "^1.0.2",
+    "vue": "^3.0.0-beta.1",
+    "vue-router": "4.0.0-alpha.6",
+    "vuex": "^4.0.0-beta.4"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-rc.9",
+    "css-loader": "^4.2.2",
+    "file-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.11.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^4.0.3",
+    "postcss-px-to-viewport": "^1.1.1",
+    "postcss-pxtorem": "^5.1.1",
+    "style-resources-loader": "^1.3.3",
+    "url-loader": "^4.0.0",
+    "vue-loader": "^16.0.0-beta.5",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "postcss": {
+    "plugins": {
+      "postcss-px-to-viewport": {
+        "viewportWidth": 750,
+        "minPixelValue": 2,
+        "unitPrecision": 3,
+        "viewportUnit": "vw"
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+
+.flexBox[data-v-26080e53] {
+  width: 80vw;
+  height: 13.333vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.ccinps[data-v-c9ca510a] {
+  border-top:1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6.667vw;
+}
+.ccinp[data-v-c9ca510a] {
+  width: 80vw;
+  height: 13.333vw;
+  margin: 1.333vw 0;
+  font-size: 4vw;
+}
+
+
+.cct[data-v-5d4509c6] {
+  font-size: 3.733vw;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
